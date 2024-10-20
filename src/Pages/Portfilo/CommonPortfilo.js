@@ -72,35 +72,45 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === 'Video' ? 'text-[#FA5252]' : 'fillter-btn'
+                    test === 'Backend' ? 'text-[#FA5252]' : 'fillter-btn'
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch('Video')}
+                  onClick={() => handleSearch('Backend')}
                 >
-                  Video
+                  Backend
                 </li>
                 <li
                   className={`${
-                    test === 'Web Design' ? 'text-[#FA5252]' : 'fillter-btn'
+                    test === 'Frontend' ? 'text-[#FA5252]' : 'fillter-btn'
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch('Web Design')}
+                  onClick={() => handleSearch('Frontend')}
                 >
-                  Web Design
+                  Frontend
                 </li>
                 <li
                   className={`${
-                    test === 'Logo' ? 'text-[#FA5252]' : 'fillter-btn ml-0'
+                    test === 'Full Stack'
+                      ? 'text-[#FA5252]'
+                      : 'fillter-btn ml-0'
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch('Logo')}
+                  onClick={() => handleSearch('Full Stack')}
                 >
-                  Logo
+                  Full Stack
                 </li>
                 <li
                   className={`${
-                    test === 'UI/UX' ? 'text-[#FA5252]' : 'fillter-btn'
+                    test === 'Desktop' ? 'text-[#FA5252]' : 'fillter-btn ml-0'
+                  } mr-4 md:mx-4`}
+                  onClick={() => handleSearch('Desktop')}
+                >
+                  Desktop
+                </li>
+                <li
+                  className={`${
+                    test === 'Tutorial' ? 'text-[#FA5252]' : 'fillter-btn'
                   }  `}
-                  onClick={() => handleSearch('UI/UX')}
+                  onClick={() => handleSearch('Tutorial')}
                 >
-                  Graphic Design
+                  Tutorials
                 </li>
               </ul>
 
@@ -154,7 +164,7 @@ const CommonPortfilo = ({ condition, items }) => {
               onRequestClose={() => setIsOpen(false)}
               className=" outline-none flex items-center  p-4 md:p-8  rounded-2xl my-8"
             >
-              <div className=" w-full md:w-10/12 flex items-center   lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
+              <div className=" w-full md:w-10/12 flex items-center   lg:w-[1250px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg ">
                 <div className=" overflow-y-scroll max-h-[80vh] no-scrollbar ">
                   {/* close button */}
                   <BsXCircle
