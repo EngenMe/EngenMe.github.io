@@ -2,7 +2,7 @@
   "name": "bostami",
   "version": "1.3.0",
   "private": true,
-  "homepage": "https://engenme.github.io",
+  "homepage": "https://engenme.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
