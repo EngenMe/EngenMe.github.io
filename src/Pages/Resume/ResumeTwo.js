@@ -1,9 +1,9 @@
-import React from "react";
-import UseData from "../../Hooks/UseData";
-import Footer from "../../Share/Footer";
-import PageTitle from "../../Share/PageTitle";
-import LineItem from "./LineItem";
-import ResumeCardTwo from "./ResumeCardTwo";
+import React from 'react';
+import UseData from '../../Hooks/UseData';
+import Footer from '../../Share/Footer';
+import PageTitle from '../../Share/PageTitle';
+import LineItem from './LineItem';
+import ResumeCardTwo from './ResumeCardTwo';
 
 const ResumeTwo = () => {
   const { lineArray } = UseData();
@@ -48,13 +48,11 @@ const ResumeTwo = () => {
                 {/* Knowledges items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
-                  <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">Node.js & Express</button>
+                  <button className="resume-btn">SQL & NoSQL</button>
+                  <button className="resume-btn">React & Tailwind CSS</button>
+                  <button className="resume-btn">RESTful API</button>
+                  <button className="resume-btn">Testing with Jest</button>
                 </div>
               </div>
 
@@ -63,7 +61,7 @@ const ResumeTwo = () => {
           </div>
           {/* End .container */}
 
-          <Footer condition={false} bg={"#FFFF"} />
+          <Footer condition={false} bg={'#FFFF'} />
         </div>
       </section>
     </>

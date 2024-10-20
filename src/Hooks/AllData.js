@@ -493,25 +493,25 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: '2021-2023',
-      title: 'Ph.D in Horriblensess ',
-      place: 'ABC University, Los Angeles, CA',
+      date: '2018-2020',
+      title: "Master's in Mechanical Engineering",
+      place: 'University of Biskra, Algeria',
       bg: '#FFF4F4',
     },
 
     {
       id: 2,
-      date: '2019 - Present',
-      title: 'Sr. Software Tester',
-      place: 'Google Inc.',
+      date: 'Oct 2024',
+      title: 'Node.js, Express, MongoDB & More: The Complete Bootcamp',
+      place: 'Udemy',
       bg: '#FFF1FB',
     },
 
     {
       id: 3,
-      date: '2021',
-      title: 'Best Developer ',
-      place: 'University Of Melbourne, NA',
+      date: 'Jan 2024 - Apr 2024',
+      title: ' Problem Solving With C++, Backend with C#, and SQL',
+      place: 'Programming Advices',
       bg: '#FFF4F4',
     },
   ];
@@ -519,25 +519,9 @@ const AllData = () => {
   const experiencesArray = [
     {
       id: 1,
-      date: '2017-2021',
-      title: 'Computer Science',
-      place: 'Imperialize Technical Institute',
-      bg: '#EEF5FA',
-    },
-
-    {
-      id: 2,
-      date: '2015-2017',
-      title: 'Cr. Web Developer',
-      place: 'ib-themes ltd.',
-      bg: '#F2F4FF',
-    },
-
-    {
-      id: 3,
-      date: '2008',
-      title: 'Best Writter',
-      place: 'Online Typodev Soluation Ltd.',
+      date: 'Jul 2022 - Sep 2022',
+      title: 'ERASMUS+ Engineering Research Project',
+      place: 'University of the West of Scotland - Paisley, Scotland, UK',
       bg: '#EEF5FA',
     },
   ];
@@ -573,26 +557,26 @@ const AllData = () => {
     {
       id: '01',
       color: '#FF6464',
-      name: 'Web Design',
-      number: '80',
+      name: 'Backend Development',
+      number: '90',
     },
     {
       id: '02',
       color: '#9272D4',
-      name: 'Mobile App ',
-      number: '95',
+      name: 'Database Management',
+      number: '85',
     },
     {
       id: '03',
       color: '#5185D4',
-      name: 'Illustrator',
-      number: '65',
+      name: 'Frontend Development',
+      number: '80',
     },
     {
       id: '03',
       color: '#CA56F2',
-      name: 'Photoshope',
-      number: '75',
+      name: 'Problem Solving & Algorithms',
+      number: '95',
     },
   ];
 

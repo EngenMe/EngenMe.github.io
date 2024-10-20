@@ -30,15 +30,17 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'msssssssss Creative Director and UI/UX Designer from
-                      Sydney, Australia, working in web development and print
-                      media. I enjoy turning complex problems into simple,
-                      beautiful and intuitive designs.
+                      A skilled full stack developer with expertise in building
+                      efficient backend services using Node.js and Express, and
+                      creating responsive frontend applications with React.
+                      Proficient in database management with MongoDB and SQL.
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                      Strong in problem-solving, data structures, and
+                      algorithms, with a passion for delivering clean, scalable
+                      code. Proven ability to work on real-world projects, from
+                      RESTful APIs to full stack platforms, applying best
+                      practices in software development.
                     </p>
                   </div>
                 </div>
