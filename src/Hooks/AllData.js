@@ -13,21 +13,6 @@ import workSmall3 from '../assets/images/work_images/small/3.png';
 import workSmall4 from '../assets/images/work_images/small/4.png';
 import workSmall5 from '../assets/images/work_images/small/5.jpg';
 import workSmall6 from '../assets/images/work_images/small/6.jpg';
-// blog post images
-import blog6 from '../assets/images/blog_images/6.jpg';
-import blog4 from '../assets/images/blog_images/4.jpg';
-import blog2 from '../assets/images/blog_images/2.jpg';
-import blog1 from '../assets/images/blog_images/1.jpg';
-import blog3 from '../assets/images/blog_images/3.jpg';
-import blog5 from '../assets/images/blog_images/5.jpg';
-// blog image small
-import blogSmall6 from '../assets/images/blog_images/small/6.jpg';
-import blogSmall4 from '../assets/images/blog_images/small/4.jpg';
-import blogSmall2 from '../assets/images/blog_images/small/2.jpg';
-import blogSmall1 from '../assets/images/blog_images/small/1.jpg';
-import blogSmall3 from '../assets/images/blog_images/small/3.jpg';
-import blogSmall5 from '../assets/images/blog_images/small/5.jpg';
-//  icon use as img here
 import icon from '../assets/images/icons/nodeJs.png';
 import icon1 from '../assets/images/icons/database.png';
 import icon2 from '../assets/images/icons/atom.png';
