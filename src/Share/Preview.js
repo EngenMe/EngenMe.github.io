@@ -2,8 +2,8 @@ import React from 'react';
 import logo from '../assets/images/logo/logo-preview.png';
 import homeonelight from '../assets/images/preview/homeonelight.png';
 import homeonedark from '../assets/images/preview/homeonedark.png';
-import hometwolight from '../assets/images/preview/hometwolight.png';
-import hometwodark from '../assets/images/preview/hometwodark.png';
+import Homelight from '../assets/images/preview/Homelight.png';
+import Homedark from '../assets/images/preview/Homedark.png';
 import previewimg from '../assets/images/preview/preview.png';
 
 // ******************************************************
@@ -38,23 +38,23 @@ const Preview = () => {
     {
       img: homeonelight,
       title: 'Box Layout (Light)',
-      link: '/homeTwo',
+      link: '/Home',
       id: '1',
     },
     {
       img: homeonedark,
       title: 'Box Layout (Dark)',
-      link: '/homeTwo',
+      link: '/Home',
       id: '2',
     },
     {
-      img: hometwolight,
+      img: Homelight,
       title: 'Regular Layout (Light)',
       link: '/home',
       id: '3',
     },
     {
-      img: hometwodark,
+      img: Homedark,
       title: 'Regular Layout (Dark)',
       link: '/home',
       id: '4',

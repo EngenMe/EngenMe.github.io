@@ -3,14 +3,13 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FiMoon, FiSun } from 'react-icons/fi';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import UseData from '../../Hooks/UseData';
-import logo from '../../assets/images/logo/logo.png';
-import HeaderTwo from '../../Share/HeaderTwo';
+import Header from '../../Share/Header';
 import HomeCard from '../../Share/HomeCard';
 import PageTitle from '../../Share/PageTitle';
 
-const HomeTwo = () => {
+const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { handleTheme, check, menuItemTwo, NavLink } = UseData();
+  const { handleTheme, check, menuItem, NavLink } = UseData();
   const handle = (e) => {
     handleTheme(e);
   };
@@ -20,7 +19,7 @@ const HomeTwo = () => {
       <PageTitle title="Home"></PageTitle>
       {/* End pagetitle */}
 
-      <section className="bg-homeBg dark:bg-homeTwoBg-dark min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
+      <section className="bg-homeBg dark:bg-HomeBg-dark min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
         <div
           className="container   w-full bg-[#F3F6F6] dark:bg-black lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5  lg:px-0 lg:pt-[50px]"
           data-aos="fade"
@@ -29,7 +28,9 @@ const HomeTwo = () => {
             {/* website logo */}
 
             <Link to="/">
-              <img className="h-[26px] lg:h-[32px]" src={logo} alt="logo" />
+              <div className="font-suse text-7xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient transition-transform duration-300 ease-in-out hover:scale-125">
+                EngenMe
+              </div>
             </Link>
             <div className="flex items-center">
               {/* dark and light mode button */}
@@ -79,7 +80,7 @@ const HomeTwo = () => {
                 : 'flex my-12 '
             }`}
           >
-            {menuItemTwo.map((item) => (
+            {menuItem.map((item) => (
               <li onClick={() => setMenuOpen(false)} key={item.id}>
                 <NavLink
                   key={item.id}
@@ -125,9 +126,9 @@ const HomeTwo = () => {
             <HomeCard />
           </div>
           <div className="col-span-12 lg:col-span-8  ">
-            {/* header two  */}
+            {/* header   */}
 
-            <HeaderTwo />
+            <Header />
             <Outlet />
           </div>
         </div>
@@ -136,4 +137,4 @@ const HomeTwo = () => {
   );
 };
 
-export default HomeTwo;
+export default Home;
