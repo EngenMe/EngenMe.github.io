@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const CommonContact = ({ condition }) => {
   const form = useRef();
@@ -12,15 +12,15 @@ const CommonContact = ({ condition }) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        'service_t95tyxe',
+        'template_nod148z',
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        'gq01TBlW6f9eHRCwH'
       )
       .then(
         (result) => {
-          toast.success("Message Sent successfully!", {
-            position: "top-right",
+          toast.success('Message Sent successfully!', {
+            position: 'top-right',
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -28,11 +28,11 @@ const CommonContact = ({ condition }) => {
             draggable: true,
             progress: undefined,
           });
-          document.getElementById("myForm").reset();
+          document.getElementById('myForm').reset();
         },
         (error) => {
-          toast.error("Ops Message not Sent!", {
-            position: "top-right",
+          toast.error('Ops Message not Sent!', {
+            position: 'top-right',
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -49,17 +49,17 @@ const CommonContact = ({ condition }) => {
       data-aos="fade"
       className={`${
         condition
-          ? "mx-4 md:mx-[60px] p-4 md:p-16 dark:border-[#212425] dark:border-2"
-          : "  dark:border-[#212425] dark:border-2 mb-16  md:p-[48px]  p-4  "
+          ? 'mx-4 md:mx-[60px] p-4 md:p-16 dark:border-[#212425] dark:border-2'
+          : '  dark:border-[#212425] dark:border-2 mb-16  md:p-[48px]  p-4  '
       } bg-color-810 rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px]`}
     >
       <h3 className="text-4xl  ">
         <span className="text-gray-lite dark:text-[#A6A6A6] ">
-          I'm always open to discussing product
+          Open to job offers
         </span>
         <br />
         <span className="font-semibold dark:text-white">
-          design work or partnerships.
+          web development projects and collaborations.
         </span>
       </h3>
 
