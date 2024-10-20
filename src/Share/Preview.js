@@ -156,7 +156,7 @@ const Preview = () => {
           <div className="flex mt-6 justify-center">
             <a
               href="#demo"
-              className="flex-shrink-0 inline-flex mr-3 items-center justify-center px-5 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold leading-6 text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] rounded-full shadow-md"
+              className="flex-shrink-0 inline-flex mr-3 items-center justify-center px-5 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold leading-6 text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] hover:bg-gradient-to-l rounded-full shadow-md"
             >
               View Demos
               <svg
@@ -288,7 +288,7 @@ const Preview = () => {
           href="https://themeforest.net/item/bostami-tailwind-css-personal-portfolio-react-template/38598542"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-shrink-0 inline-flex mt-8 items-center justify-center px-5 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold leading-6 text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] rounded-full shadow-md"
+          className="flex-shrink-0 inline-flex mt-8 items-center justify-center px-5 md:px-8 py-3 md:py-4 text-sm md:text-base font-semibold leading-6 text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] hover:bg-gradient-to-l rounded-full shadow-md"
         >
           Purchase Now
           <svg
