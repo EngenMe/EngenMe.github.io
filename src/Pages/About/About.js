@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
 import {
   FaEnvelopeOpenText,
   FaMapMarkerAlt,
   FaMobileAlt,
   FaRegCalendarAlt,
-} from "react-icons/fa";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
-import aboutImage from "../../assets/images/about/about.jpg";
-import "../../Share/Style.css";
-import Footer from "../../Share/Footer";
-import UseData from "../../Hooks/UseData";
-import SliderCommon from "../../Share/SliderCommon";
-import AboutCard from "./AboutCard";
-import PageTitle from "../../Share/PageTitle";
+} from 'react-icons/fa';
+import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
+import aboutImage from '../../assets/images/about/about.jpg';
+import '../../Share/Style.css';
+import Footer from '../../Share/Footer';
+import UseData from '../../Hooks/UseData';
+import SliderCommon from '../../Share/SliderCommon';
+import AboutCard from './AboutCard';
+import PageTitle from '../../Share/PageTitle';
 
 const About = () => {
   const { local, serviceArray } = UseData();
@@ -152,7 +152,7 @@ const About = () => {
             </div>
 
             {/* Common Footer call here */}
-            <Footer condition={false} bg={"#FFFF"} />
+            <Footer condition={false} bg={'#FFFF'} />
           </div>
         </div>
       </section>

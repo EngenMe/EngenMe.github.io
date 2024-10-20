@@ -33,19 +33,13 @@ import blogSmall2 from '../assets/images/blog_images/small/2.jpg';
 import blogSmall1 from '../assets/images/blog_images/small/1.jpg';
 import blogSmall3 from '../assets/images/blog_images/small/3.jpg';
 import blogSmall5 from '../assets/images/blog_images/small/5.jpg';
-
-import img1 from '../assets/images/slider/brand-1.png';
-import img2 from '../assets/images/slider/brand-2.png';
-import img3 from '../assets/images/slider/brand-3.png';
-import img4 from '../assets/images/slider/brand-4.png';
-import img5 from '../assets/images/slider/brand-5.png';
 //  icon use as img here
-import icon from '../assets/images/icons/icon-1.svg';
-import icon1 from '../assets/images/icons/icon-2.svg';
-import icon2 from '../assets/images/icons/icon-3.svg';
-import icon3 from '../assets/images/icons/icon-4.svg';
+import icon from '../assets/images/icons/nodeJs.png';
+import icon1 from '../assets/images/icons/database.png';
+import icon2 from '../assets/images/icons/atom.png';
+import icon3 from '../assets/images/icons/code.png';
 import icon4 from '../assets/images/icons/icon-5.svg';
-import icon5 from '../assets/images/icons/icon-6.svg';
+import icon5 from '../assets/images/icons/drawing.png';
 // contact image
 import iconPhone from '../assets/images/contact/phone-call 1.png';
 import iconEmail from '../assets/images/contact/email 1.png';
@@ -410,18 +404,37 @@ const AllData = () => {
     },
   ];
 
+  const imgPlaceholder = (
+    <svg
+      width="40"
+      height="40"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 40 40"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="text-gray-400"
+    >
+      <rect width="100%" height="100%" fill="lightgray" />
+      <line x1="10" y1="10" x2="30" y2="30" />
+      <line x1="30" y1="10" x2="10" y2="30" />
+    </svg>
+  );
+
   // Slider image for Clients
   const sliderImg = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
+    imgPlaceholder,
   ];
 
   // serviceArray items for about page
@@ -429,50 +442,50 @@ const AllData = () => {
     {
       id: '1',
       icon: icon,
-      title: 'Ui/Ux Design',
-      des: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.',
-      color: '#D566FF',
-      bg: '#FCF4FF',
+      title: 'Backend Development',
+      des: 'Building efficient, non-blocking services using Node.js and Express, with fully tested APIs.',
+      color: '#6C63FF',
+      bg: '#F0F4FF',
     },
     {
       id: '2',
       icon: icon1,
-      title: 'App Development',
-      des: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.',
-      color: '#DDA10C',
-      bg: '#FEFAF0',
+      title: 'Database Management',
+      des: 'Expertise in MongoDB and SQL Server, ensuring data integrity and optimized performance.',
+      color: '#FFB74D',
+      bg: '#FFF5E6',
     },
     {
       id: '3',
       icon: icon2,
-      title: 'Photography',
-      des: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.',
-      color: '#8774FF',
-      bg: '#FCF4FF',
+      title: 'Frontend Development',
+      des: 'Creating responsive web applications with React, Tailwind CSS, and modern JavaScript.',
+      color: '#42A5F5',
+      bg: '#E3F2FD',
     },
     {
       id: '4',
       icon: icon3,
-      title: 'Photography',
-      des: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.',
-      color: '#FF6080',
-      bg: '#FFF4F4',
+      title: 'Problem Solving & Algorithms',
+      des: 'Delivering clean solutions with a strong focus on data structures and algorithms.',
+      color: '#FF5252',
+      bg: '#FFEBEE',
     },
     {
       id: '5',
       icon: icon4,
-      title: 'Managment',
-      des: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.',
-      color: '#FF75D8',
-      bg: '#FFF0F8',
+      title: 'Code Quality & Debugging',
+      des: 'Applying OOP and SOLID principles to write clean, scalable, and maintainable code.',
+      color: '#66BB6A',
+      bg: '#E8F5E9',
     },
     {
       id: '6',
       icon: icon5,
-      title: 'Web Development',
-      des: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.',
-      color: '#269FFF',
-      bg: '#F3FAFF',
+      title: 'Design & Graphics',
+      des: 'Creating vector designs and visuals using Inkscape for enhanced project presentations.',
+      color: '#FFA726',
+      bg: '#FFF3E0',
     },
   ];
 

@@ -3,7 +3,6 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FiMoon, FiSun } from 'react-icons/fi';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import UseData from '../../Hooks/UseData';
-import logo from '../../assets/images/logo/logo.png';
 import HeaderTwo from '../../Share/HeaderTwo';
 import HomeCard from '../../Share/HomeCard';
 import PageTitle from '../../Share/PageTitle';

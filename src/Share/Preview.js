@@ -1,26 +1,26 @@
-import React from "react";
-import logo from "../assets/images/logo/logo-preview.png";
-import homeonelight from "../assets/images/preview/homeonelight.png";
-import homeonedark from "../assets/images/preview/homeonedark.png";
-import hometwolight from "../assets/images/preview/hometwolight.png";
-import hometwodark from "../assets/images/preview/hometwodark.png";
-import previewimg from "../assets/images/preview/preview.png";
+import React from 'react';
+import logo from '../assets/images/logo/logo-preview.png';
+import homeonelight from '../assets/images/preview/homeonelight.png';
+import homeonedark from '../assets/images/preview/homeonedark.png';
+import hometwolight from '../assets/images/preview/hometwolight.png';
+import hometwodark from '../assets/images/preview/hometwodark.png';
+import previewimg from '../assets/images/preview/preview.png';
 
 // ******************************************************
-import reactLogo from "../assets/images/preview/fatures/1.png";
-import reactRouterLogo from "../assets/images/preview/fatures/2.png";
-import tailwindLogo from "../assets/images/preview/fatures/3.png";
-import reactHooksLogo from "../assets/images/preview/fatures/4.png";
-import apiReadyLogo from "../assets/images/preview/fatures/5.png";
-import reactIconLogo from "../assets/images/preview/fatures/6.png";
-import reactHelmetLogo from "../assets/images/preview/fatures/7.png";
-import reactToastifyLogo from "../assets/images/preview/fatures/8.png";
-import workingForm from "../assets/images/preview/fatures/9.png";
+import reactLogo from '../assets/images/preview/fatures/1.png';
+import reactRouterLogo from '../assets/images/preview/fatures/2.png';
+import tailwindLogo from '../assets/images/preview/fatures/3.png';
+import reactHooksLogo from '../assets/images/preview/fatures/4.png';
+import apiReadyLogo from '../assets/images/preview/fatures/5.png';
+import reactIconLogo from '../assets/images/preview/fatures/6.png';
+import reactHelmetLogo from '../assets/images/preview/fatures/7.png';
+import reactToastifyLogo from '../assets/images/preview/fatures/8.png';
+import workingForm from '../assets/images/preview/fatures/9.png';
 
 // ***************************************************
-import { Link } from "react-router-dom";
-import UseData from "../Hooks/UseData";
-import PageTitle from "./PageTitle";
+import { Link } from 'react-router-dom';
+import UseData from '../Hooks/UseData';
+import PageTitle from './PageTitle';
 // ***************************************************
 
 const Preview = () => {
@@ -37,27 +37,27 @@ const Preview = () => {
   const previewArray = [
     {
       img: homeonelight,
-      title: "Box Layout (Light)",
-      link: "/homeTwo",
-      id: "1",
+      title: 'Box Layout (Light)',
+      link: '/homeTwo',
+      id: '1',
     },
     {
       img: homeonedark,
-      title: "Box Layout (Dark)",
-      link: "/homeTwo",
-      id: "2",
+      title: 'Box Layout (Dark)',
+      link: '/homeTwo',
+      id: '2',
     },
     {
       img: hometwolight,
-      title: "Regular Layout (Light)",
-      link: "/home",
-      id: "3",
+      title: 'Regular Layout (Light)',
+      link: '/home',
+      id: '3',
     },
     {
       img: hometwodark,
-      title: "Regular Layout (Dark)",
-      link: "/home",
-      id: "4",
+      title: 'Regular Layout (Dark)',
+      link: '/home',
+      id: '4',
     },
   ];
 
@@ -66,68 +66,68 @@ const Preview = () => {
   const features = [
     {
       icon: reactLogo,
-      dataDealy: "0",
-      title: "React v18+",
+      dataDealy: '0',
+      title: 'React v18+',
       description:
         "We used latest react vertion ^18. Max Components are Reusable for you. It's a awesome design made by React.",
     },
     {
       icon: reactRouterLogo,
-      dataDealy: "100",
-      title: "React Router v6+",
+      dataDealy: '100',
+      title: 'React Router v6+',
       description:
-        "It has a simple API with powerful features like lazy code loading, dynamic route matching, and location transition handling",
+        'It has a simple API with powerful features like lazy code loading, dynamic route matching, and location transition handling',
     },
     {
       icon: tailwindLogo,
-      dataDealy: "200",
-      title: "Tailwind v3+",
+      dataDealy: '200',
+      title: 'Tailwind v3+',
       description:
-        "Tailwind CSS is basically a modern,trending and utility-first CSS framework for rapidly building custom user interfaces.",
+        'Tailwind CSS is basically a modern,trending and utility-first CSS framework for rapidly building custom user interfaces.',
     },
 
     {
       icon: reactIconLogo,
-      dataDealy: "200",
-      title: "React Icon",
+      dataDealy: '200',
+      title: 'React Icon',
       description:
-        "React-icons uses ES6 features to import the icons into your React app. And it makes it so that only the icons you actually use from each library get imported.",
+        'React-icons uses ES6 features to import the icons into your React app. And it makes it so that only the icons you actually use from each library get imported.',
     },
     {
       icon: reactHooksLogo,
-      dataDealy: "0",
-      title: "React Hooks",
+      dataDealy: '0',
+      title: 'React Hooks',
       description:
-        "It allows you to use state and other React features without writing a class. Hooks are the functions which hook into React state and lifecycle features from function components.",
+        'It allows you to use state and other React features without writing a class. Hooks are the functions which hook into React state and lifecycle features from function components.',
     },
     {
       icon: apiReadyLogo,
-      dataDealy: "100",
-      title: "Api Ready Code",
+      dataDealy: '100',
+      title: 'Api Ready Code',
       description:
-        "We made all the code with Array of Object based. so you can prepare for your api call whenever you want for it",
+        'We made all the code with Array of Object based. so you can prepare for your api call whenever you want for it',
     },
 
     {
       icon: reactHelmetLogo,
-      dataDealy: "0",
-      title: "React Helmet-Async",
+      dataDealy: '0',
+      title: 'React Helmet-Async',
       description:
-        "React Helmet Async is a component which lets you control your document head using their React component. With this plugin, attributes you add in their component, e.g. title, meta attributes",
+        'React Helmet Async is a component which lets you control your document head using their React component. With this plugin, attributes you add in their component, e.g. title, meta attributes',
     },
     {
       icon: reactToastifyLogo,
-      dataDealy: "100",
-      title: "React Toastify",
+      dataDealy: '100',
+      title: 'React Toastify',
       description:
-        "React-Toastify allows you to add notifications to your app with easy and comfortable way",
+        'React-Toastify allows you to add notifications to your app with easy and comfortable way',
     },
     {
       icon: workingForm,
-      dataDealy: "200",
-      title: "Working Contact Form",
+      dataDealy: '200',
+      title: 'Working Contact Form',
       description:
-        "You will get working contact form without any type of Bakcend. We integrated it With Email js. just follow our documentation and integrate it easy way",
+        'You will get working contact form without any type of Bakcend. We integrated it With Email js. just follow our documentation and integrate it easy way',
     },
   ];
 
@@ -149,7 +149,7 @@ const Preview = () => {
           >
             Modern,Trending & Creative Portfolio
             <br className="md:block hidden " />
-            <span className="text-[#F95054]">Tailwind CSS</span> &{" "}
+            <span className="text-[#F95054]">Tailwind CSS</span> &{' '}
             <span className="text-[#F95054]">React JS</span>
           </p>
 
@@ -213,7 +213,7 @@ const Preview = () => {
         >
           {/* previewimg element start */}
           {previewArray.map((item) => {
-            const mode = item.id % 2 === 0 ? "dark" : "light";
+            const mode = item.id % 2 === 0 ? 'dark' : 'light';
             return (
               <div
                 onClick={() => handle(mode)}
@@ -278,8 +278,8 @@ const Preview = () => {
           data-aos="fade"
           className="font-bold text-[22px] md:text-[26px] xl:text-[32px] 2xl:text-[42px] text-white pt-[40px] mx-auto max-w-4xl px-4 "
         >
-          Purchase Bostami & Build Your Dream Portfolio{" "}
-          <span className="text-[#F95054]">React JS</span> &{" "}
+          Purchase Bostami & Build Your Dream Portfolio{' '}
+          <span className="text-[#F95054]">React JS</span> &{' '}
           <span className="text-[#F95054]">Tailwind CSS</span> Portfolio
           Template.
         </p>
@@ -312,14 +312,14 @@ const Preview = () => {
       {/* Start Footer */}
       <footer className="bg-slate-800">
         <p className="text-center py-5 text-white ">
-          © 2022 All Rights Reserved by{" "}
+          © 2022 All Rights Reserved by{' '}
           <a
             className="hover:text-[#FA5252] duration-300 transition"
-            href="https://themeforest.net/user/ib-themes"
-            target="_blank"
+            href="/"
+            target=""
             rel="noopener noreferrer"
           >
-            ib-themes
+            EngenMe
           </a>
           .
         </p>
